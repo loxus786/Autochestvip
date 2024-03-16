@@ -19,7 +19,7 @@ lon.Size = UDim2.new(1,0,1,5,0)
 repeat wait(1) until game:IsLoaded()
 
 
-        highChestOnly = false
+        highChestOnly = true
 godsChalicSniper = true
 repeat task.wait(4) until game:IsLoaded()
 local PlaceID = game.PlaceId
