@@ -21,7 +21,7 @@ repeat wait(1) until game:IsLoaded()
 
         highChestOnly = false
 godsChalicSniper = true
-fistofdarknessSniper = true
+fistofdarkness = true
 repeat task.wait(4) until game:IsLoaded()
 local PlaceID = game.PlaceId
 local AllIDs = {}
@@ -145,7 +145,7 @@ end)
 task.spawn(function()
     while task.wait() do
         task.spawn(function()
-            if fistofdarknessSniper == true then
+            if fistofdarkness == true then
                 if stuff then
                     AllowRunService = false
                 end
